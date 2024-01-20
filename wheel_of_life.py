@@ -20,17 +20,17 @@ def create_wheel_of_life():
         rating = get_user_input(category)
         ratings.append(rating)
 
-    # Create a pie chart
+
     plt.pie(ratings, labels=categories, autopct='%1.1f%%', startangle=90)
 
-    # Equal aspect ratio ensures that pie is drawn as a circle.
+   
     plt.axis('equal')
 
-    # Add a title
+   
     plt.title('Wheel of Life')
 
-    # Display the pie chart
+    
     plt.show()
 
-# Run the script
+
 create_wheel_of_life()
